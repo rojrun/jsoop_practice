@@ -104,7 +104,7 @@ function featureSet2(){
 	var result = calc.calculate()
 	if(result !== 10){
 		displayMessage('Result should have been numeric 10, but was '+result+ ' instead.');
-		return false;		
+		return false;
 	}
 	displayMessage('calculate ran successfully and returned 5*2=10', 'message')
 	var len = calc.loadNumber(3);
@@ -132,7 +132,7 @@ function featureSet2(){
 	var result = calc.calculate()
 	if(result !== 7){
 		displayMessage('Result should have been numeric 7, but was '+result+ ' instead.');
-		return false;		
+		return false;
 	}
 	displayMessage('calculate ran successfully and returned 3+4=7', 'message')
 	displayMessage('Calculator passed all tests', 'message')

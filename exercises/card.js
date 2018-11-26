@@ -14,6 +14,7 @@ class Card{
 
 class Deck{
 	constructor(){
+		
 		//takes in nothing
 		//make storage for your card objects
 	}
